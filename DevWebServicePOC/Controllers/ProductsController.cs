@@ -4,10 +4,11 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using DevWebServicePOC.Models;
+using System.Web.Http;
 
 namespace DevWebServicePOC.Controllers
 {
-    public class ProductsController : Controller
+    public class ProductsController : ApiController
     {
         //
         // GET: /Products/
@@ -23,10 +24,10 @@ namespace DevWebServicePOC.Controllers
         }
         
 
-        public ActionResult Index()
-        {
-            return View();
-        }
+   //     public ActionResult Index()
+    //    {
+     //       return View();
+      //  }
 
     }
 }
