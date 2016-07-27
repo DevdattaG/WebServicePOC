@@ -14,8 +14,10 @@ namespace DevWebServicePOC.Controllers
         // GET: /Products/
         Product[] Products = new Product[]
         {
-    new Product { ProductID = 1, ProductName = "Product 1", ProductCatagory= "Category 1", ProductPrice = 120 },
-    new Product { ProductID = 2, ProductName = "Product 2", ProductCatagory= "Category 2", ProductPrice = 200}
+    new Product { ProductID = 1, ProductName = "Lenovo K4 Note", ProductCatagory= "Mobiles", ProductPrice = 12000 },
+    new Product { ProductID = 2, ProductName = "Skullcandy Ink'D 60070D", ProductCatagory= "Headsets", ProductPrice = 650},
+    new Product { ProductID = 3, ProductName = "Sennheiser Street 150", ProductCatagory= "Headsets", ProductPrice = 900},
+    new Product { ProductID = 4, ProductName = "Dell Inspiron N5110", ProductCatagory= "Laptops", ProductPrice = 44500}
         };
 
         public IEnumerable<Product> GetProducts()
